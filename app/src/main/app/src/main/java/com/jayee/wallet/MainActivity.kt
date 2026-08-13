@@ -1,16 +1,19 @@
 package com.jayee.wallet
 
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.material3.Text
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContent {
-            Text("JAYEE Wallet")
-        }
+        val textView = TextView(this)
+        textView.text = "JAYEE Wallet"
+        textView.textSize = 28f
+        textView.setPadding(40, 40, 40, 40)
+
+        setContentView(textView)
     }
 }
