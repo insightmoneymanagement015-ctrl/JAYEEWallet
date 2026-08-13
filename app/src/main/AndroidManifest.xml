@@ -1,0 +1,11 @@
+JAYEEWallet/
+├── settings.gradle.kts
+├── build.gradle.kts
+├── gradle.properties
+├── app/
+│   ├── build.gradle.kts
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml
+│           └── java/
+│               └── com/jayee/wallet/
